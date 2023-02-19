@@ -1,0 +1,17 @@
+.container
+{
+    border: 4px solid darkmagenta;
+    border-radius: 10px;
+}
+#item
+{
+    background-color: lightcyan;
+    color: blue;
+    padding: 20px 20px;
+    margin: 30px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
