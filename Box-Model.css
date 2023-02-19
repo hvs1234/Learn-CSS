@@ -1,0 +1,28 @@
+.container
+{
+    background-color: lightblue;
+    border: 4px solid darkmagenta;
+    border-radius: 20px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+#set
+{
+    margin: 20px 20px;
+    padding: 20px 20px;
+    background-color: lightcoral;
+    border: 4px solid darkgreen;
+    border-radius: 20px;
+}
+#item
+{
+    margin: 20px 20px;
+    padding: 20px 20px;
+    background-color: lightgreen;
+    border: 4px solid darkblue;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkred;
+}
