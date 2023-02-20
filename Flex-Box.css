@@ -1,0 +1,32 @@
+body {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    background-color: lightcoral;
+    border: 2px solid red;
+    width: 1000px;
+    height: 600px;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around; */
+    /* align-items: stretch; */
+}
+
+.box {
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    border-radius: 30px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 100px;
+    height: 100px;
+}
+#box1
+{
+    flex-grow: 3;
+}
