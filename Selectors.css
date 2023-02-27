@@ -1,0 +1,20 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+h1 {
+    background-color: lightblue;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+div > p {
+    background-color: lightsalmon;
+    border: 2px solid blue;
+}
+
+div + p {
+    background-color: lightgreen;
+}
