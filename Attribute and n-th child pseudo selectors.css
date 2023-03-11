@@ -1,0 +1,28 @@
+.container {
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    padding: 20px 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    display: block;
+}
+input[type="email"] {
+    height: 30px;
+}
+
+.next div:nth-child(3) {
+    color: darkblue;
+    background-color: lightgreen;
+    border: 4px solid red;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 50px;
+}
