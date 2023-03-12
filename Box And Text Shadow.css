@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+}
+.card {
+    border: 2px solid red;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: lightgreen;
+    box-shadow: 5px 5px 10px darkblue;
+}
+.card h1 {
+    text-align: center;
+    text-shadow: 3px 3px 2px white;
+}
