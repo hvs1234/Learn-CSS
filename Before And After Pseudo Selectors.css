@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+header::before {
+    content: "";
+    background: url("https://cdn.pixabay.com/photo/2017/09/09/11/52/t-shirts-2731768__340.jpg")
+    no-repeat center center/cover;
+    width: 100%;
+    height: 56%;
+    opacity: 0.4;
+    z-index: -1;
+    position: absolute;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.set {
+    font-size: 2em;
+    display: flex;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    align-items: center;
+}
+.set li {
+    padding: 0px 10px;
+    list-style: none;
+    cursor: pointer;
+    margin: 0px 0px;
+}
+
+section {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin: 10px 10px;
+}
+section h1 {
+    font-size: 4em;
+}
+section p {
+    font-size: 1.2em;
+    width: 300px;
+    position: relative;
+    left: 530px;
+}
