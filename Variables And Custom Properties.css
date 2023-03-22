@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+
+:root {
+    --set: lightcyan;
+}
+
+.box {
+    margin: 2px 10px;
+    padding: 2px 2px;
+    border: 2px solid red;
+    box-shadow: 2px 2px 2px darkgreen;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: var(--set);
+}
+
+.box h1 {
+    --a:blue;
+    color: var(--a);
+}
